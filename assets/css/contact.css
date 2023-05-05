@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    min-height: 200vh;
+}
+
+.nav-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: rgb(199, 241, 255, 0.1);
+}
+.nav-list{
+    display: flex;
+    margin-left: 200px;
+}
+.nav-list li {
+    list-style: none;
+    padding: 0 2rem;
+    font-size: 20px;
+}
+.nav-bar ul li a{
+    position: relative;
+    margin-left: 25px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(164, 234, 244);
+}
+.nav-bar ul li a:hover{
+    background-color: white;
+    color: blue;
+}
+.nav-contact{
+    display: flex;
+}
+.nav-contact li {
+    margin-left: 25px;
+    list-style: none;
+}
+.logo{
+    position: relative;
+    font-weight: 800;
+    color: cyan;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Shalimar', cursive;
+    letter-spacing: 2px;
+}
+.logo:hover{
+    color: red;
+}
+body{
+    background-color: rgb(24, 26, 35);
+}
+
+.banner{
+    margin: 3% 40%;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner h3 a{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    color: chocolate;
+
+}
+.banner h3 a:hover{
+    color: blue;
+}
+iframe{
+    height: 250px;
+    width: 250px;
+    margin: 3% 40%;
+}
